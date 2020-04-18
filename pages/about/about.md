@@ -8,4 +8,4 @@ I've wanted to learn Vue for some time, and when Vue Mastery announced that they
 
 I swept through the courses and learned how to build a Nuxt.js application, which you're viewing at this moment! I'm also using Vuetify for a beautiful UI, so I can focus more on the content rather than the subtleties of stylesheets.
 
- I'm also challenging myself to use Pug, Sass, and TypeScript to build my website. You can view the source code at the [Github Repo](https://github.com/leonzalion/website).
+I'm also challenging myself to use Pug, Sass, and TypeScript to build my website. You can view the source code at the [Github Repo](https://github.com/leonzalion/website).

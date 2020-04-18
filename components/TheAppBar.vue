@@ -31,6 +31,10 @@ export default {
         route: '/about'
       },
       {
+        name: 'Articles',
+        route: '/articles'
+      },
+      {
         name: 'Projects',
         route: '/projects'
       },

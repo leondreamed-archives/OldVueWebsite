@@ -1,9 +1,9 @@
 <template lang="pug">
-  v-card
+  v-card(elevation="5", :to="`/${type}/${name}`")
     v-img(:src="thumbnail")
-    v-card-title {{ name }}
+    v-card-title {{ title }}
     v-card-subtitle {{ slogan }}
-    v-card-text {{ description }}
+    v-card-text(v-if="description") {{ description }}
 </template>
 
 <script>
@@ -13,13 +13,21 @@ export default {
       type: String,
       required: true
     },
+    title: {
+      type: String,
+      default: ''
+    },
     slogan: {
       type: String,
       default: ''
     },
     thumbnail: {
       type: String,
-      default: ''
+      default: require('~/assets/project-thumbnails/default.png')
+    },
+    type: {
+      type: String,
+      required: true
     },
     description: {
       type: String,

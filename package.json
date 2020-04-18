@@ -21,8 +21,8 @@
     "lodash": "^4.17.15",
     "markdown-loader": "^5.1.0",
     "nuxt": "^2.0.0",
-    "showdown": "^1.9.1",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vuetify": "^2.2.22"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.6.0",
