@@ -11,7 +11,21 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head() {
+    return {
+      title: "Leon Si (leonzalion)'s personal website.",
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            "Hi, I'm Leon, an aspiring ultralearner. Here, you can find articles I've written about my learning experiences and some projects I've created to make my life more efficient."
+        }
+      ]
+    };
+  }
+};
 </script>
 
 <style scoped lang="sass">

@@ -8,7 +8,6 @@
       :thumbnail="project.thumbnail",
       :description="project.description"
     )
-
 </template>
 
 <script>
@@ -41,11 +40,22 @@ export default {
         slogan: '👀 Accountability through observation.'
       }
     ]
-  })
+  }),
+  head() {
+    return {
+      title: "Leon Si (leonzalion)'s Projects",
+      meta: {
+        hid: 'description',
+        name: 'description',
+        content:
+          "A list of projects I've created that help make my life more efficient."
+      }
+    };
+  }
 };
 </script>
 
-<style lang="sass" scoped>
+<style scoped lang="sass">
 .project-cards
   padding: 0 20px
   display: grid

@@ -17,8 +17,11 @@
     "@nuxt/typescript-runtime": "^0.4.0",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/dotenv": "^1.4.0",
+    "html-loader": "^1.1.0",
     "lodash": "^4.17.15",
+    "markdown-loader": "^5.1.0",
     "nuxt": "^2.0.0",
+    "showdown": "^1.9.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {

@@ -19,19 +19,15 @@ export default {
 
 <style lang="sass">
 $footer-height: 100px
-
 *
   box-sizing: border-box
-
 html, body
   overflow: auto
   height: 100%
-
 #content-container
   display: flex
   flex-direction: column
   height: 100vh
-
 .v-footer
   margin-top: auto
 </style>
