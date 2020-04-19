@@ -20,18 +20,7 @@ import articles from '~/data/articles';
 export default {
   data: () => ({
     articles
-  }),
-  head() {
-    return {
-      title: "Leon Si (leonzalion)'s articles",
-      meta: {
-        hid: 'description',
-        name: 'description',
-        content:
-          "A list of articles I've created that help make my life more efficient."
-      }
-    };
-  }
+  })
 };
 </script>
 

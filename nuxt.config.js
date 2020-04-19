@@ -69,24 +69,11 @@ export default {
       }
     }
   },
-  /*
-   ** Build configuration
-   */
   build: {
-    /*
-     ** You can extend webpack config here
-     */
     extend(config, ctx) {
       config.module.rules.push({
         test: /\.md$/,
-        use: [
-          {
-            loader: 'html-loader'
-          },
-          {
-            loader: 'markdown-loader'
-          }
-        ]
+        use: [{ loader: 'html-loader' }, { loader: 'markdown-loader' }]
       });
 
       // Run ESLint on save
