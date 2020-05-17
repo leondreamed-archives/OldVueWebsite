@@ -37,10 +37,6 @@ export default {
       {
         name: 'Projects',
         route: '/projects'
-      },
-      {
-        name: 'Paranoia',
-        route: '/paranoia'
       }
     ]
   })
