@@ -6,8 +6,8 @@
   "private": true,
   "scripts": {
     "dev": "nuxt-ts",
-    "build": "nuxt-tsbuild",
-    "generate": "nuxt-tsgenerate && gulp",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate && gulp",
     "start": "nuxt-ts start",
     "test": "jest",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
